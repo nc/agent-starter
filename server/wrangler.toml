@@ -64,10 +64,6 @@ OPENAI_API_KEY = "add your key here"
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-kv_namespaces = [
-    { binding = "querylog", id = "c2f1df15495646a884f663abb445711a" },
-    { binding = "log", id = "ed65524bb79e455e80186544ae545110" }
-]
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#mtls-certificates
