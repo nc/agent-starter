@@ -1,0 +1,88 @@
+:root {
+  --editor-font-size: 15px;
+  --editor-line-height: 22px;
+  --editor-border: none;
+  --editor-border-width: 0;
+  --editor-width: inherit;
+  --editor-background: transparent;
+  --editor-display: flex;
+  --editor-outline: none;
+  --editor-position: relative;
+  --editor-flex: 1;
+  --editor-flex-grow: 1;
+  --editor-box-shadow: none;
+  --editor-content-padding: 0px 11px;
+  --editor-content-width: inherit;
+  --editor-content-max-width: inherit;
+  --editor-placeholder-color: rgba(255, 255, 255, 0.5);
+  --editor-placeholder-position: absolute;
+  --editor-placeholder-top: 0px;
+  --editor-placeholder-left: 0px;
+  --editor-placeholder-right: 0px;
+  --editor-placeholder-bottom: 0px;
+  --editor-placeholder-padding: var(--editor-content-padding);
+  --editor-placeholder-text-align: left;
+  --editor-placeholder-user-select: none;
+  --editor-placeholder-pointer-events: none;
+}
+
+.Composer.editor {
+  line-height: var(--editor-line-height);
+  font-size: var(--editor-font-size);
+  border: var(--editor-border);
+  border-width: var(--editor-border-width);
+  width: var(--editor-width);
+  background: var(--editor-background);
+  display: var(--editor-display);
+  outline: var(--editor-outline);
+  flex: var(--editor-flex);
+  color: white;
+  flex-grow: var(--editor-flex-grow);
+  box-shadow: var(--editor-box-shadow);
+  max-width: 550px;
+  z-index: 9999;
+  position: relative;
+}
+
+.Composer.editor .editor-paragraph {
+  margin: 0px;
+}
+
+.Composer .editor-content-editable {
+  outline: 2px solid var(--bg-contrast-3);
+  padding: 6px 11px;
+  width: var(--editor-content-width);
+  max-width: 100%;
+  font-size: var(--editor-font-size);
+  border-radius: 9px;
+  line-height: var(--editor-line-height);
+  min-height: 34px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Composer.disabled .editor-content-editable {
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: 2px solid transparent;
+}
+
+.Composer .editor-content-editable:focus {
+  outline: 2px solid lightgreen;
+}
+
+.Composer .editor-placeholder {
+  color: var(--editor-placeholder-color);
+  position: var(--editor-placeholder-position);
+  top: var(--editor-placeholder-top);
+  left: var(--editor-placeholder-left);
+  right: var(--editor-placeholder-right);
+  bottom: var(--editor-placeholder-bottom);
+  padding: var(--editor-placeholder-padding);
+  text-align: var(--editor-placeholder-text-align);
+  user-select: var(--editor-placeholder-user-select);
+  pointer-events: var(--editor-placeholder-pointer-events);
+  display: flex;
+  align-items: center;
+}
