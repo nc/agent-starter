@@ -10,16 +10,16 @@ There are two subdirectories:
 
 ## Setup
 
-### Set your Open AI API Key
+#### 1. Set your Open AI API Key
 
 In ` wrangler.toml`` set your  `OPENAI_API_KEY``
 
-### Install node deps
+#### 2. Install node deps
 
 `cd server && npm i`
 `cd www && npm i`
 
-### Start local dev servers
+#### 3. Start local dev servers
 
 Then run `heroku local` in the project root.
 You'll need the heroku command line tool to do this.
