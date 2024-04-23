@@ -14,12 +14,12 @@ There are two subdirectories:
 
 In ` wrangler.toml`` set your  `OPENAI_API_KEY``
 
-## Install node deps
+### Install node deps
 
 `cd server && npm i`
 `cd www && npm i`
 
-## Start local dev servers
+### Start local dev servers
 
 Then run `heroku local` in the project root.
 You'll need the heroku command line tool to do this.
