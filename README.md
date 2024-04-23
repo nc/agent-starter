@@ -1,4 +1,6 @@
-# AI Agent Starter React + TypeScript + Vite + Cloudflare Worker
+# AI Agent Starter
+
+## React + TypeScript + Vite + Cloudflare Worker
 
 This template provides a minimal setup to get a basic AI Agent setup with streaming events over websockets and the ability to compose multiple AI 'programs' together in a workflow.
 
