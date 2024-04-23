@@ -12,7 +12,7 @@ There are two subdirectories:
 
 #### 1. Set your Open AI API Key
 
-In ` wrangler.toml`` set your  `OPENAI_API_KEY``
+In ` wrangler.toml` set your `OPENAI_API_KEY`
 
 #### 2. Install node deps
 
